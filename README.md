@@ -1,7 +1,3 @@
-## **Empresa Destinataria y Sector**
-
-El análisis se enfoca en el sector de marketing de un banco portugués.
-
 ### **Objetivos:**
 
 1. **Evaluar los Datos:** Realizar un análisis exploratorio y descriptivo para comprender ciertas características y patrones en el conjunto de datos y algunas caracteristicas del perfil del cliente.
@@ -16,9 +12,13 @@ El análisis se enfoca en el sector de marketing de un banco portugués.
     │   ├── silver/                    # Datos limpios y transformados para ML y EDA
     │   └── gold/                      # Datos listos para visualización de datos
     │
-    ├── models/                        # Mejor modelo para predecir la variable target
+    ├── models/                        # Mejores modelo para predecir la variable target
     │
-    └── notebook                       # Este cuaderno con todas las etapas
+    └── notebooks and scripts          # cuadernos con las diferentes etapas de crisp-dm
+        ├── 1_adquisicion_comprension_datos.ipynb                    
+        ├── 2_procesamiento.ipynb                    
+        ├── 3_eda_bi.ipynb
+        └── 4_ml.ipynb
 
 ## Tecnologías Utilizadas
 - Python
